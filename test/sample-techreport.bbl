@@ -1,5 +1,7 @@
 \begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -21,7 +23,7 @@
 \newblock \url{http://www.nstrs.org.cn/xiangxiBG.aspx?id=41707}.
 
 \bibitem[Calkin\ et~al.(2011)Calkin, Ager, and Thompson]{calkin}
-CALKIN~D, AGER~A, THOMPSON~M.
+Calkin~D, Ager~A, Thompson~M.
 \newblock A comparative risk assessment framework for wildland fire management:
   the 2010 cohesive strategy science report: {RMRS-GTR-262}\allowbreak[R].
 \newblock [S.l.: s.n.], 2011: 8-9.

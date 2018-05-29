@@ -532,7 +532,7 @@ FUNCTION {init.options}
 %
 % 英文姓名转为全大写：
 %    \begin{macrocode}
-  #1 'uppercase.name :=
+  #0 'uppercase.name :=
 %    \end{macrocode}
 %
 % 最多显示的作者数量：
@@ -542,7 +542,7 @@ FUNCTION {init.options}
 %
 % 采用著者-出版年制时，作者姓名与年份之间使用句点连接：
 %    \begin{macrocode}
-  #0 'period.between.author.year :=
+  #1 'period.between.author.year :=
 %    \end{macrocode}
 %
 % 英文标题转为 sentence case （句首字母大写，其余小写）：
@@ -815,6 +815,8 @@ FUNCTION {init.state.consts}
 %    \end{macrocode}
 %
 % 下面是一些常量的定义
+%
+% Tsinghua requires thinner space between series, volume and title.
 %    \begin{macrocode}
 FUNCTION {bbl.space} { "\ " }
 
@@ -976,9 +978,17 @@ FUNCTION {output.check}
 %    \end{macrocode}
 %
 % This function finishes all entries.
+%
+% Tsinghua requires no period at the end of book-like entries.
 %    \begin{macrocode}
 FUNCTION {fin.entry}
-{ add.period$
+{ type$ "book" =
+  type$ "inbook" = or
+  type$ "incollection" = or
+  type$ "collection" = or
+    'skip$
+    'add.period$
+  if$
   write$
   newline$
 }
@@ -2638,9 +2648,15 @@ FUNCTION {manual} { monograph }
 %       Required: author, title, school, year
 %
 %       Optional: type, address, month, note
+%
+% Tsinghua requires a special mark for entry type.
 %    \begin{macrocode}
 FUNCTION {mastersthesis}
-{ "D" set.entry.mark
+{ lang.zh entry.lang =
+    { "\thumasterbib{}" }
+    { "D" }
+  if$
+  set.entry.mark
   monograph
 }
 
@@ -2662,7 +2678,14 @@ FUNCTION {online}
 %
 %       Optional: type, address, month, note
 %    \begin{macrocode}
-FUNCTION {phdthesis} { mastersthesis }
+FUNCTION {phdthesis}
+{ lang.zh entry.lang =
+    { "\thuphdbib{}" }
+    { "D" }
+  if$
+  set.entry.mark
+  monograph
+}
 
 %    \end{macrocode}
 %
@@ -3411,6 +3434,10 @@ FUNCTION {begin.bib}
   "\begin{thebibliography}{" number.label int.to.str$ * "}" *
   write$ newline$
   "\providecommand{\natexlab}[1]{#1}"
+  write$ newline$
+  "\providecommand\thumasterbib{D}"
+  write$ newline$
+  "\providecommand\thuphdbib{D}"
   write$ newline$
   print.url print.doi or
     { "\providecommand{\url}[1]{#1}"

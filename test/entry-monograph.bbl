@@ -1,5 +1,7 @@
 \begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -9,13 +11,13 @@
 \bibitem[陈登原(2000)]{cdy}
 陈登原.
 \newblock 国史旧闻：第 1 卷\allowbreak[M].
-\newblock 北京: 中华书局, 2000: 29.
+\newblock 北京: 中华书局, 2000: 29
 
 \bibitem[哈里森·沃尔德伦(2012)]{hlswedl}
 哈里森·沃尔德伦.
 \newblock 经济数学与金融数学\allowbreak[M].
 \newblock 谢远涛, 译.
-\newblock 北京: 中国人民大学出版社, 2012: 235-236.
+\newblock 北京: 中国人民大学出版社, 2012: 235-236
 
 \bibitem[北京市政协民族和宗教委员会\
   等(2012)北京市政协民族和宗教委员会 and
@@ -23,7 +25,7 @@
 北京市政协民族和宗教委员会,
   北京联合大学民族与宗教研究所.
 \newblock 历代王朝与民族宗教\allowbreak[M].
-\newblock 北京: 民族出版社, 2012: 112.
+\newblock 北京: 民族出版社, 2012: 112
 
 \bibitem[全国信息与文献标准化技术委员会(2010)]{qgxxywxbzhjswyh}
 全国信息与文献标准化技术委员会.
@@ -34,18 +36,18 @@
 \bibitem[徐光宪\ 等(2010)徐光宪 and 王祥云]{xgx}
 徐光宪, 王祥云.
 \newblock 物质结构\allowbreak[M].
-\newblock 北京: 科学出版社, 2010.
+\newblock 北京: 科学出版社, 2010
 
 \bibitem[顾炎武(1992)]{gyw}
 顾炎武.
 \newblock 昌平山水记：京东考古录\allowbreak[M].
-\newblock 北京: 北京古籍出版社, 1992.
+\newblock 北京: 北京古籍出版社, 1992
 
 \bibitem[王夫之(1865（清同治四年）)]{wfz}
 王夫之.
 \newblock 宋论\allowbreak[M].
 \newblock 刻本.
-\newblock 金陵: 湘乡曾国荃, 1865（清同治四年）.
+\newblock 金陵: 湘乡曾国荃, 1865（清同治四年）
 
 \bibitem[牛志明\ 等(2012)牛志明, 斯温兰德, and 雷光春]{nzm}
 牛志明, 斯温兰德, 雷光春.
@@ -60,7 +62,7 @@
 
 \bibitem[杨保军(2012)]{ybj}
 杨保军.
-\newblock 新闻道德论\allowbreak[D/OL].
+\newblock 新闻道德论\allowbreak[\thuphdbib{}/OL].
 \newblock 北京: 中国人民大学出版社, 2012\allowbreak[2012-11-01].
 \newblock
   \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20101104-BPO-889-1023&cult=CN}.
@@ -69,30 +71,30 @@
 赵学功.
 \newblock 当代美国外交\allowbreak[M/OL].
 \newblock 北京: 社会科学文献出版社, 2001\allowbreak[2014-06-11].
-\newblock \url{http://www.cadal.zju.edu.cn/book/trySinglePage/33023884/1}.
+\newblock \url{http://www.cadal.zju.edu.cn/book/trySinglePage/33023884/1}
 
 \bibitem[同济大学土木工程防灾国家重点实验室(2011)]{tjdxtmgcfzgjzdsys}
 同济大学土木工程防灾国家重点实验室.
 \newblock 汶川地震灾害研究\allowbreak[M/OL].
 \newblock 上海: 同济大学出版社, 2011: 5-6\allowbreak[2013-05-09].
 \newblock
-  \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20120406-YPT-889-0010}.
+  \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20120406-YPT-889-0010}
 
 \bibitem[中国造纸学会(2003)]{zgzzxh}
 中国造纸学会.
 \newblock 中国造纸年鉴：2003\allowbreak[M/OL].
 \newblock 北京: 中国轻工业出版社, 2003\allowbreak[2014-04-25].
-\newblock \url{http://www.cadal.zju.edu.cn/book/view/25010080}.
+\newblock \url{http://www.cadal.zju.edu.cn/book/view/25010080}
 
 \bibitem[Peebles(2001)]{peebles}
-PEEBLES~P~Z, Jr.
+Peebles~P~Z, Jr.
 \newblock Probability, random variables, and random signal
   principles\allowbreak[M].
 \newblock 4th ed.
-\newblock New York: McGraw-Hill, 2001.
+\newblock New York: McGraw-Hill, 2001
 
 \bibitem[Yufin(2000)]{yufin}
-YUFIN~S~A.
+Yufin~S~A.
 \newblock Geoecology and computers: Proceedings of the {Third International
   Conference on Advances of Computer Methods in Geotechnical and
   Geoenvironmental Engineering, Moscow, Russia, February 1--4,
@@ -100,18 +102,18 @@ YUFIN~S~A.
 \newblock Rotterdam: A. A. Balkema, 2000.
 
 \bibitem[Baldock(2011)]{baldock}
-BALDOCK~P.
+Baldock~P.
 \newblock Developing early childhood services: Past, present and
   future\allowbreak[M/OL].
 \newblock Rotterdam: Open University Press, 2011: 105\allowbreak[2012-11-27].
-\newblock \url{http://lib.myilibrary.com/Open.aspx?id=312377}.
+\newblock \url{http://lib.myilibrary.com/Open.aspx?id=312377}
 
 \bibitem[Fan\ et~al.(2013)Fan and Sommers]{sommers}
-FAN~X, SOMMERS~C~H.
+Fan~X, Sommers~C~H.
 \newblock Food irradiation research and technology\allowbreak[M/OL].
 \newblock 2nd ed.
 \newblock Ames, Iowa: Blackwell Publishing, 2013: 25-26\allowbreak[2014-06-26].
 \newblock
-  \url{http://onlinelibrary.wiley.com/doi/10.1002/9781118422557.ch2/summary}.
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/9781118422557.ch2/summary}
 
 \end{thebibliography}

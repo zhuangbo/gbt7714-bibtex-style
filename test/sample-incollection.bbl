@@ -1,5 +1,7 @@
 \begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -8,13 +10,13 @@
 
 \bibitem[swg(1988)]{swgwj}
 卷 39 乞致仕第一\allowbreak[M]//\allowbreak{}苏魏公文集: 下册.
-\newblock 北京: 中华书局, 1988: 590.
+\newblock 北京: 中华书局, 1988: 590
 
 \bibitem[白书农(1998)]{bsn}
 白书农.
 \newblock 植物开花研究\allowbreak[M]//\allowbreak{}李承森.
 \newblock 植物科学进展.
-\newblock 北京: 高等教育出版社, 1998: 146-163.
+\newblock 北京: 高等教育出版社, 1998: 146-163
 
 \bibitem[汪学军(2002)]{wxj}
 汪学军.
@@ -33,7 +35,7 @@
 
 \bibitem[ss(1977)]{ss}
 宋史卷三: 本纪第三\allowbreak[M]//\allowbreak{}宋史: 第 1 册.
-\newblock 北京: 中华书局, 1977: 49.
+\newblock 北京: 中华书局, 1977: 49
 
 \bibitem[楼梦鳞\ 等(2011)楼梦鳞 and 杨燕]{lml}
 楼梦鳞, 杨燕.
@@ -42,16 +44,16 @@
 \newblock 汶川地震震害研究.
 \newblock 上海: 同济大学出版社, 2011: 011-012\allowbreak[2013-05-09].
 \newblock
-  \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20120406-YPT-889-0010}.
+  \url{http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20120406-YPT-889-0010}
 
 \bibitem[Buseck\ et~al.(c1980)Buseck, Nord, and Veblen]{buseck}
-BUSECK~P~R, NORD~G~L, Jr, VEBLEN~D~R.
+Buseck~P~R, Nord~G~L, Jr, Veblen~D~R.
 \newblock Subsolidus phenomena in
   pyroxenes\allowbreak[M]//\allowbreak{}Pyroxense.
-\newblock Washington, D.C.: Mineralogical Society of America, c1980: 117-211.
+\newblock Washington, D.C.: Mineralogical Society of America, c1980: 117-211
 
 \bibitem[Fourney(c1971)]{fourney}
-FOURNEY~M~E.
+Fourney~M~E.
 \newblock Advances in holographic
   photoelasticity\allowbreak[C]//\allowbreak{}Symposium on Applications of
   Holography in Mechanics, August 23-25, 1971, University of Southern

@@ -1,5 +1,7 @@
 \begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -33,13 +35,13 @@
 
 \bibitem[Des~Marais\ et~al.(1992)Des~Marais, Strauss, Summons,
   et~al.]{desmarais}
-DES~MARAIS~D~J, STRAUSS~H, SUMMONS~R~E, et~al.
+Des~Marais~D~J, Strauss~H, Summons~R~E, et~al.
 \newblock Carbon isotope evidence for the stepwise oxidation of the proterozoic
   environment\allowbreak[J].
 \newblock Nature, 1992, 359:\penalty0 605-609.
 
 \bibitem[Saito\ et~al.(2006)Saito and Miyazaki]{saito}
-SAITO~M, MIYAZAKI~K.
+Saito~M, Miyazaki~K.
 \newblock Jadeite-bearing metagabbro in serpentinite mélange of the
   {"Kurosegawa Belt" in Izumi Town, Yatsushiro City, Kumamoto Prefecture,
   central Kyushu}\allowbreak[J].
@@ -47,7 +49,7 @@ SAITO~M, MIYAZAKI~K.
   (5/6):\penalty0 169-176.
 
 \bibitem[Walls\ et~al.(2013)Walls, Barichivich, and Brown]{walls}
-WALLS~S~C, BARICHIVICH~W~J, BROWN~M~E.
+Walls~S~C, Barichivich~W~J, Brown~M~E.
 \newblock Drought, deluge and declines: the impact of precipitation extremes on
   amphibians in a changing climate\allowbreak[J/OL].
 \newblock Biology, 2013, 2\penalty0 (1):\penalty0
@@ -57,7 +59,7 @@ WALLS~S~C, BARICHIVICH~W~J, BROWN~M~E.
 
 \bibitem[Franz\ et~al.(2013)Franz, Danielewicz, Wong, Anderson, and
   Boothe]{franz}
-FRANZ~A~K, DANIELEWICZ~M~A, WONG~D~M, et~al.
+Franz~A~K, Danielewicz~M~A, Wong~D~M, et~al.
 \newblock Phenotypic screening with oleaginous microalgae reveals modulators of
   lipid productivity\allowbreak[J/OL].
 \newblock ACS Chemical biology, 2013, 8:\penalty0
@@ -65,7 +67,7 @@ FRANZ~A~K, DANIELEWICZ~M~A, WONG~D~M, et~al.
 \newblock \url{http://pubs.acs.org/doi/ipdf/10.1021/cb300573r}.
 
 \bibitem[Park\ et~al.(2010)Park and Tosaka]{park}
-PARK~J~R, TOSAKA~Y.
+Park~J~R, Tosaka~Y.
 \newblock Metadata quality control in digital repositories and collections:
   Criteria, semantics, and mechanisms\allowbreak[J/OL].
 \newblock Cataloging \& classification quarterly, 2010, 48\penalty0

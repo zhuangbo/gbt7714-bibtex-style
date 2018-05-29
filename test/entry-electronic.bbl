@@ -1,5 +1,7 @@
 \begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -23,7 +25,7 @@
 \newblock \url{http://china.findlaw.cn/fagui/p_1/39934.html}.
 
 \bibitem[Bawden(2008)]{bawden}
-BAWDEN~D.
+Bawden~D.
 \newblock Origins and concepts of digital literacy\allowbreak[EB/OL].
 \newblock \allowbreak(2008-05-04)\allowbreak[2013-03-08].
 \newblock
@@ -36,7 +38,7 @@ BAWDEN~D.
 \newblock \url{http://www.oclc.org/about/cooperation.en.html}.
 
 \bibitem[Hopkinson(2009)]{hopkinson}
-HOPKINSON~A.
+Hopkinson~A.
 \newblock {UNIMARC} and metadata: Dublin core\allowbreak[EB/OL].
 \newblock \allowbreak(2009-04-22)\allowbreak[2013-03-27].
 \newblock \url{http://archive.ifla.org/IV/ifla64/138-161e.htm}.

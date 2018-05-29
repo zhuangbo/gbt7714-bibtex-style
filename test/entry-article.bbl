@@ -1,5 +1,7 @@
 \begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -43,18 +45,18 @@
 \newblock DOI: \doi{10.3771/j.issn.1009-2307.2008.05.002}.
 
 \bibitem[Kanamori(1998)]{kanamori}
-KANAMORI~H.
+Kanamori~H.
 \newblock Shaking without quaking\allowbreak[J].
 \newblock Science, 1998, 279\penalty0 (5359):\penalty0 2063.
 
 \bibitem[Caplan(1993)]{caplan}
-CAPLAN~P.
+Caplan~P.
 \newblock Cataloging internet resources\allowbreak[J].
 \newblock The public access computer systems review, 1993, 4\penalty0
   (2):\penalty0 61-66.
 
 \bibitem[Frese\ et~al.(2013)Frese, Katus, and Meder]{frese}
-FRESE~K~S, KATUS~H~A, MEDER~B.
+Frese~K~S, Katus~H~A, Meder~B.
 \newblock Next-generation sequencing: from understanding biology to
   personalized medicine\allowbreak[J/OL].
 \newblock Biology, 2013, 2\penalty0 (1):\penalty0
@@ -63,7 +65,7 @@ FRESE~K~S, KATUS~H~A, MEDER~B.
 \newblock DOI: \doi{10.3390/biology2010378}.
 
 \bibitem[Myburg\ et~al.(2014)Myburg, Grattapaglia, Tuskan, et~al.]{myburg}
-MYBURG~A~A, GRATTAPAGLIA~D, TUSKAN~G~A, et~al.
+Myburg~A~A, Grattapaglia~D, Tuskan~G~A, et~al.
 \newblock The genome of eucalyptus grandis\allowbreak[J/OL].
 \newblock Nature, 2014, 510:\penalty0 356-362\allowbreak[2014-06-25].
 \newblock

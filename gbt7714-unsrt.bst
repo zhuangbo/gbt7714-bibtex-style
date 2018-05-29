@@ -32,9 +32,9 @@ INTEGERS {
 
 FUNCTION {init.options}
 {
-  #1 'uppercase.name :=
+  #0 'uppercase.name :=
   #3 'max.num.authors :=
-  #0 'period.between.author.year :=
+  #1 'period.between.author.year :=
   #1 'sentence.case.title :=
   #1 'print.mark :=
   #0 'italic.jounal :=
@@ -237,7 +237,13 @@ FUNCTION {output.check}
 }
 
 FUNCTION {fin.entry}
-{ add.period$
+{ type$ "book" =
+  type$ "inbook" = or
+  type$ "incollection" = or
+  type$ "collection" = or
+    'skip$
+    'add.period$
+  if$
   write$
   newline$
 }
@@ -1368,7 +1374,11 @@ FUNCTION {map}
 FUNCTION {manual} { monograph }
 
 FUNCTION {mastersthesis}
-{ "D" set.entry.mark
+{ lang.zh entry.lang =
+    { "\thumasterbib{}" }
+    { "D" }
+  if$
+  set.entry.mark
   monograph
 }
 
@@ -1382,7 +1392,14 @@ FUNCTION {online}
   electronic
 }
 
-FUNCTION {phdthesis} { mastersthesis }
+FUNCTION {phdthesis}
+{ lang.zh entry.lang =
+    { "\thuphdbib{}" }
+    { "D" }
+  if$
+  set.entry.mark
+  monograph
+}
 
 FUNCTION {proceedings}
 { "C" set.entry.mark
@@ -1694,6 +1711,10 @@ FUNCTION {begin.bib}
   "\begin{thebibliography}{" number.label int.to.str$ * "}" *
   write$ newline$
   "\providecommand{\natexlab}[1]{#1}"
+  write$ newline$
+  "\providecommand\thumasterbib{D}"
+  write$ newline$
+  "\providecommand\thuphdbib{D}"
   write$ newline$
   print.url print.doi or
     { "\providecommand{\url}[1]{#1}"

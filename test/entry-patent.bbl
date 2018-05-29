@@ -1,5 +1,7 @@
 \begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
+\providecommand\thumasterbib{D}
+\providecommand\thuphdbib{D}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
   \urlstyle{same}\fi
@@ -20,7 +22,7 @@
 
 \bibitem[Tachibana\ et~al.(2005)Tachibana, Shimizu, Kobayshi, and
   Nakamura]{tachibana}
-TACHIBANA~R, SHIMIZU~S, KOBAYSHI~S, et~al.
+Tachibana~R, Shimizu~S, Kobayshi~S, et~al.
 \newblock Electronic watermarking method and system:
   {US6915001}\allowbreak[P/OL].
 \newblock 2005-07-05\allowbreak[2013-11-11].
