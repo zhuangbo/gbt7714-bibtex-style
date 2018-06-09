@@ -41,6 +41,7 @@ version 2005/12/01 or later.
   \file{\jobname.sty}{\from{\jobname.dtx}{package}}
   \file{\jobname-plain.bst}{\from{\jobname.dtx}{2015,authoryear}}
   \file{\jobname-unsrt.bst}{\from{\jobname.dtx}{2015,numerical}}
+  \file{\jobname-bachelor.bst}{\from{\jobname.dtx}{2015,bachelor,numerical}}
   \file{\jobname-2005-plain.bst}{\from{\jobname.dtx}{2005,authoryear}}
   \file{\jobname-2005-unsrt.bst}{\from{\jobname.dtx}{2005,numerical}}
 }
@@ -516,7 +517,7 @@ version 2005/12/01 or later.
 % 可以在下面的 |init.options| 函数中选择是否启用。
 % \changes{v1.0.8}{2018/06/23}{新增接口供用户自定义样式}
 %    \begin{macrocode}
-%<*authoryear|numerical>
+%<*authoryear|numerical|bachelor>
 INTEGERS {
   uppercase.name
   max.num.authors
@@ -542,6 +543,9 @@ FUNCTION {init.options}
 % 英文姓名转为全大写：
 %    \begin{macrocode}
   #1 'uppercase.name :=
+%<*bachelor>
+  #0 'uppercase.name :=
+%</bachelor>
 %    \end{macrocode}
 %
 % 最多显示的作者数量：
@@ -551,7 +555,7 @@ FUNCTION {init.options}
 %
 % 采用著者-出版年制时，作者姓名与年份之间使用句点连接：
 %    \begin{macrocode}
-  #0 'period.between.author.year :=
+  #1 'period.between.author.year :=
 %    \end{macrocode}
 %
 % 英文标题转为 sentence case （句首字母大写，其余小写）：
@@ -562,16 +566,22 @@ FUNCTION {init.options}
 % 著录文献类型标识（比如“[M/OL]“）：
 %    \begin{macrocode}
   #1 'print.mark :=
+%<*bachelor>
+  #0 'print.mark :=
+%</bachelor>
 %    \end{macrocode}
 %
 % 期刊名使用斜体：
 %    \begin{macrocode}
   #0 'italic.jounal :=
+%<*bachelor>
+  #1 'italic.jounal :=
+%</bachelor>
 %    \end{macrocode}
 %
 % 无出版地或出版者时，著录“出版地不详”，“出版者不详”，“S.l.” 或 “s.n.”：
 %    \begin{macrocode}
-  #1 'print.missing.address.publisher :=
+  #0 'print.missing.address.publisher :=
 %    \end{macrocode}
 %
 % 是否著录 URL：
@@ -1711,9 +1721,17 @@ FUNCTION {format.series.vol.num.booktitle}
   if$
 }
 
+%    \end{macrocode}
+%
+% USTC requires italic titles for journals in foriegn languages.
+%
+%    \begin{macrocode}
 FUNCTION {format.journal}
 { journal
   italic.jounal
+%<*bachelor>
+  lang.zh entry.lang = not and
+%</bachelor>
     'italicize
     'skip$
   if$
@@ -3481,7 +3499,7 @@ FUNCTION {end.bib}
 }
 
 EXECUTE {end.bib}
-%</authoryear|numerical>
+%</authoryear|numerical|bachelor>
 %    \end{macrocode}
 % \end{environment}
 %

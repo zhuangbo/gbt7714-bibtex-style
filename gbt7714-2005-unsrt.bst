@@ -35,11 +35,11 @@ FUNCTION {init.options}
 {
   #1 'uppercase.name :=
   #3 'max.num.authors :=
-  #0 'period.between.author.year :=
+  #1 'period.between.author.year :=
   #1 'sentence.case.title :=
   #1 'print.mark :=
   #0 'italic.jounal :=
-  #1 'print.missing.address.publisher :=
+  #0 'print.missing.address.publisher :=
   #1 'print.url :=
   #0 'print.doi :=
   #0 'print.note :=
